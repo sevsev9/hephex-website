@@ -1,0 +1,97 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+
+@theme {
+  --font-sans: var(--hx-font-family);
+  --color-obsidian: var(--hx-obsidian);
+  --color-forge-gold: var(--hx-forge-gold);
+  --color-white: var(--hx-white);
+  --color-graphite: var(--hx-graphite);
+  --color-steel: var(--hx-steel);
+  --color-ash: var(--hx-ash);
+  --color-ember: var(--hx-ember);
+  --color-molten: var(--hx-molten);
+}
+
+body {
+  background-color: var(--hx-obsidian);
+  color: var(--hx-white);
+  font-family: var(--hx-font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: var(--hx-text-h1);
+  line-height: var(--hx-leading-h1);
+  font-weight: var(--hx-font-weight-bold);
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: var(--hx-text-h2);
+  line-height: var(--hx-leading-h2);
+  font-weight: var(--hx-font-weight-bold);
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: var(--hx-text-h3);
+  line-height: var(--hx-leading-h3);
+  font-weight: var(--hx-font-weight-semibold);
+}
+
+h4 {
+  font-size: var(--hx-text-h4);
+  line-height: var(--hx-leading-h4);
+  font-weight: var(--hx-font-weight-semibold);
+}
+
+p {
+  font-size: var(--hx-text-body);
+  line-height: var(--hx-leading-body);
+  max-width: var(--hx-max-line-length);
+}
+
+.text-small {
+  font-size: var(--hx-text-small);
+  line-height: var(--hx-leading-small);
+}
+
+.text-micro {
+  font-size: var(--hx-text-micro);
+  line-height: var(--hx-leading-h4);
+  font-weight: var(--hx-font-weight-medium);
+  letter-spacing: 0.04em;
+}
+
+/* Subtle geometric background */
+.bg-mesh {
+  background-image: 
+    linear-gradient(to right, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: center center;
+}
+
+/* Forged motif */
+.forged-separator {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--hx-steel), transparent);
+  width: 100%;
+  margin: var(--hx-space-xl) 0;
+}
+
+.spark-accent {
+  position: relative;
+}
+.spark-accent::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 8px;
+  height: 8px;
+  background-color: var(--hx-forge-gold);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}

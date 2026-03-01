@@ -1,0 +1,57 @@
+:root {
+  --hx-obsidian: #0D0D0D;
+  --hx-forge-gold: #D4881C;
+  --hx-white: #FAFAFA;
+  --hx-graphite: #1A1A1A;
+  --hx-steel: #2A2A2A;
+  --hx-ash: #8A8A8A;
+  --hx-ember: #E8A838;
+  --hx-molten: #F5C563;
+
+  --hx-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --hx-font-weight-regular: 400;
+  --hx-font-weight-medium: 500;
+  --hx-font-weight-semibold: 600;
+  --hx-font-weight-bold: 700;
+
+  --hx-text-h1: 3rem;
+  --hx-text-h2: 2rem;
+  --hx-text-h3: 1.5rem;
+  --hx-text-h4: 1.125rem;
+  --hx-text-body: 1rem;
+  --hx-text-small: 0.875rem;
+  --hx-text-micro: 0.75rem;
+
+  --hx-leading-h1: 1.1;
+  --hx-leading-h2: 1.2;
+  --hx-leading-h3: 1.3;
+  --hx-leading-h4: 1.4;
+  --hx-leading-body: 1.6;
+  --hx-leading-small: 1.5;
+
+  --hx-space-xs: 4px;
+  --hx-space-sm: 8px;
+  --hx-space-md: 16px;
+  --hx-space-lg: 24px;
+  --hx-space-xl: 48px;
+  --hx-space-2xl: 96px;
+
+  --hx-max-width: 1200px;
+  --hx-column-gap: 24px;
+  --hx-section-padding: 120px;
+  --hx-section-padding-mobile: 64px;
+  --hx-card-padding: 32px;
+  --hx-max-line-length: 680px;
+
+  --hx-radius-card: 12px;
+  --hx-radius-button: 8px;
+  --hx-radius-input: 8px;
+  --hx-radius-tag: 4px;
+
+  --hx-shadow-card: 0 1px 3px rgba(0, 0, 0, 0.3), 0 4px 12px rgba(0, 0, 0, 0.2);
+  --hx-shadow-elevated: 0 4px 16px rgba(0, 0, 0, 0.4), 0 8px 32px rgba(0, 0, 0, 0.3);
+
+  --hx-transition-fast: 150ms ease;
+  --hx-transition-base: 250ms ease;
+  --hx-transition-slow: 400ms ease;
+}
