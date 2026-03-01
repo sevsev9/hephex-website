@@ -13,6 +13,10 @@ export const metadata: Metadata = {
     default: "HEPHEX | Premium Custom Software & AI Consulting",
   },
   description: "Bespoke tools and prototypes for mid-market companies. Software that adapts to you.",
+  robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: {
     title: "HEPHEX | Premium Custom Software & AI Consulting",
     description: "Bespoke tools and prototypes for mid-market companies. Software that adapts to you.",
