@@ -40,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} dark`}>
+    <html lang="en" className={`${inter.variable} dark`} suppressHydrationWarning>
       <body className="bg-obsidian text-white min-h-screen flex flex-col bg-mesh">
         <MotionProvider>
           <Header />
